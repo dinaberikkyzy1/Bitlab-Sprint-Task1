@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.navbar{
+  background-color: darkred;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.logo a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+.menu a{
+  align-items: center;
+  margin-left: 15px; 
+  font-weight: lighter;
+  color: white;
+  text-decoration: none;
+}
+
+.article{
+  width:100%;
+  display: flex;
+   background-color: rgb(127, 195, 214);
+  
+}
+.image{
+   padding: 20px 0px 20px 20px;
+}
+
+.image img{
+  width: 400px;
+}
+
+.articlenews{
+  padding: 20px;
+ }
+.title{
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.news1{
+  padding: 10px 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.container{
+   display:flex;
+   justify-content: space-between;
+   width: 100%;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width:23%;
+    border: 1px solid gray;
+}
+
+  .card-body{
+    padding: 15px;
+  }
+
+  .card-button{
+    margin-top: auto;
+    padding: 15px;
+  }
+  
+  button{
+    padding: 10px;
+    font-size: 14px;
+    background-color: darkred;
+    color: white;
+    border:none;
+  }
